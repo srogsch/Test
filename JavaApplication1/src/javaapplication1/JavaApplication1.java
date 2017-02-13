@@ -17,8 +17,10 @@ public class JavaApplication1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hallo, läuft bei dir :-)");
+        String str = new String("Hallo, läuft bei dir auch :-))");
+        ausgabe(str);
     }
-    private void ausgabe(String st){
+    private static void ausgabe(String st){
         System.out.println(st);
     }
     
